@@ -10,26 +10,26 @@
  */
 
 @mixin tablet {
-	@media (min-width: map-get($breakpoint,'md')) {
-		@content;
-	}
+  @media (min-width: map-get($breakpoint,"md")) {
+    @content;
+  }
 }
 
 @mixin laptop {
-	@media (min-width: map-get($breakpoints,'lg')) {
-		@content;
-	}
+  @media (min-width: map-get($breakpoints,"lg")) {
+    @content;
+  }
 }
 
 @mixin desktop {
-	@media (min-width: map-get($breakpoints,'xl')) {
-		@content;
-	}
+  @media (min-width: map-get($breakpoints,"xl")) {
+    @content;
+  }
 }
 
 @mixin margin($spacing) {
-	margin: map-get($spacing, $spacing);
+  margin: map-get($spacing, $spacing);
 }
 @mixin padding($spacing) {
-	padding: map-get($spacing, $spacing);
+  padding: map-get($spacing, $spacing);
 }

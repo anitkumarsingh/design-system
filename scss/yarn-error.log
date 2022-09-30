@@ -1,0 +1,63 @@
+Arguments: 
+  /home/anit/.nvm/versions/node/v14.15.4/bin/node /home/anit/.nvm/versions/node/v14.15.4/bin/yarn lint
+
+PATH: 
+  /home/anit/.nvm/versions/node/v14.15.4/bin:/opt/gradle/gradle-5.6.2/bin:/usr/lib/flutter/bin:/usr/lib/Android:/usr/lib/Android/platform-tools:/usr/lib/Android/tools/bin:/usr/lib/Android/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.15.4
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /media/anit/032A12192C0A389F/Coding-Pratice/design-system/scss/package.json: Unexpected token } in JSON at position 684
+      at JSON.parse (<anonymous>)
+      at /home/anit/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/home/anit/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/anit/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "@ds.f/scss",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "lint": "stylelint './**/*.scss'",
+      "lint:fix": "npm lint --fix"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "normalize-scss": "^7.0.1"
+    },
+    "devDependencies": {
+      "husky": "^8.0.1",
+      "lint-staged": "^13.0.3",
+      "prettier": "^2.7.1",
+      "stylelint": "^14.13.0",
+      "stylelint-config-prettier": "^9.0.3",
+      "stylelint-config-sass-guidelines": "^9.0.1",
+      "stylelint-prettier": "^2.0.0"
+    },
+    "husky": {
+      "hooks": {
+        "pre-commit": "lint-staged"
+      }
+    },
+    "lint-staged": {
+      "*.scss": "yarn lint:fix"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

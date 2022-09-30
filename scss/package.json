@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "stylelint './**/*.scss'",
-    "lint:fix": "npm lint --fix"
+    "lint:fix": "yarn lint --fix"
   },
   "keywords": [],
   "author": "",
@@ -22,12 +22,12 @@
     "stylelint-config-sass-guidelines": "^9.0.1",
     "stylelint-prettier": "^2.0.0"
   },
-  "husky":{
-    "hooks":{
-      "pre-commit":"lint-staged"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
     }
   },
-  "lint-staged":{
-    "*.scss":"npm run lint:fix"
+  "lint-staged": {
+    "*.scss": "yarn lint:fix"
   }
 }
