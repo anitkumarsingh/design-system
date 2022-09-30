@@ -8,7 +8,7 @@
     "lint:fix": "yarn lint --fix"
   },
   "keywords": [],
-  "author": "",
+  "author": "Anit Kumar",
   "license": "ISC",
   "dependencies": {
     "normalize-scss": "^7.0.1"
