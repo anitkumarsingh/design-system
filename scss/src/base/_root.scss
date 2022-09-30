@@ -1,0 +1,42 @@
+:root {
+	--dsf-body-text-color: #{$dark};
+	--dsf-body-bg-color: #{$white};
+
+	--dsf-btn-primary-color: #{$white};
+	--dsf-btn-primary-bg: #{$green};
+	--dsf-btn-primary-bg-hover: #{$green-light};
+
+	--dsf-form-color: #{$dark};
+	--dsf-form-bg: #{$white};
+	--dsf-form-error-color: #{$red};
+	--dsf-form-error-border: #{$red};
+	--dsf-form-border-focus-color: #{$green};
+
+	--dsf-app-bar-color: #{$white};
+	--dsf-app-bar-text-color: #{$grey};
+	--dsf-app-bar-elevation: #{$grey-light};
+
+	--dsf-ft-btn-bg: #{$blue};
+	--dsf-ft-btn-icon-color: #{$white};
+	--dsf-ft-btn-clicked-bg: #{$blue-light};
+	--dsf-ft-btn-elevation: #{$grey-light};
+
+	--dsf-body-font-family: #{$playfair};
+
+	--dsf-body-font-wt: #{$fw-normal};
+	--dsf-body-font-size: #{$fs-base};
+
+	--dsf-h1-font-size: #{$h-1};
+	--dsf-h2-font-size: #{$h-2};
+	--dsf-h3-font-size: #{$h-3};
+	--dsf-h4-font-size: #{$h-4};
+	--dsf-h5-font-size: #{$h-5};
+	--dsf-h6-font-size: #{$h-6};
+
+	--dse-h1-text-weight: #{$fw-black};
+	--dse-h2-text-weight: #{$fw-semibold};
+	--dse-h3-text-weight: #{$fw-bold};
+	--dse-h4-text-weight: #{$fw-medium};
+	--dse-h5-text-weight: #{$fw-normal};
+	--dse-h6-text-weight: #{$fw-light};
+}
