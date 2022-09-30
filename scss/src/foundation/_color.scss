@@ -32,3 +32,20 @@ $form-bg: var(--dsf-form-bg, $white) !default;
 $form-error-color: var(--dsf-form-error-color, $red) !default;
 $form-error-border: var(--dsf-form-error-border, $red) !default;
 $form-border-focus-color: var(--dsf-form-border-focus-color, $green) !default;
+
+/*=============================================
+=            Appbar colors                    =
+=============================================*/
+
+$app-bar-color: var(--dsf-app-bar-color, $white) !default;
+$app-bar-text-color: var(--dsf-app-bar-text-color, $grey) !default;
+$app-bar-elevation: var(--dsf-app-bar-elevation, $grey-light) !default;
+
+/*=============================================
+=            Floating buttons                 =
+=============================================*/
+
+$ft-btn-bg: var(--dsf-ft-btn-bg, $blue) !default;
+$ft-btn-icon-color: var(--dsf-ft-btn-icon-color, $white) !default;
+$ft-btn-clicked-bg: var(--dsf-ft-btn-clicked-bg, $blue-light) !default;
+$ft-btn-elevatio0n: var(--dsf-ft-btn-elevation, $grey-light) !default;
