@@ -1,0 +1,34 @@
+/*=============================================
+=            FOUNDATION                      =
+=============================================*/
+
+/**
+ *
+ * This file defines actual colors for styling
+ *
+ */
+
+/*=============================================
+=            Global text colors               =
+=============================================*/
+$body-text-color: var(--dsf-body-text-color, $dark) !default;
+$body-bg-color: var(--dsf-body-bg-color, $white) !default;
+
+/*=====  End of Global text colors  ======*/
+
+/*=============================================
+=            Button                           =
+=============================================*/
+
+$btn-primary-color: var(--dsf-btn-primary-color, $white) !default;
+$btn-primary-bg: var(--dsf-btn-primary-bg, $green) !default;
+$btn-primary-bg-hover: var(--dsf-btn-primary-bg-hover, $green-light) !default;
+
+/*=============================================
+=                   Forms                     =
+=============================================*/
+$form-color: var(--dsf-form-color, $dark) !default;
+$form-bg: var(--dsf-form-bg, $white) !default;
+$form-error-color: var(--dsf-form-error-color, $red) !default;
+$form-error-border: var(--dsf-form-error-border, $red) !default;
+$form-border-focus-color: var(--dsf-form-border-focus-color, $green) !default;
