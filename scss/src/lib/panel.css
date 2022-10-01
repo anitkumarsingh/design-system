@@ -1,0 +1,120 @@
+/*=============================================
+=               #VARIABLES                   =
+=============================================*/
+/*
+* TABLE OF CONTENTS
+*
+* COLORS
+* brand colors -----
+* neuteral colors ----
+* utilities colors----
+*
+*
+* TYPOGRAPHY
+* font-families
+* font-weight
+* sizes
+* heading sizes
+*
+*
+* BREAKPOINTS
+* breakpoint ---
+*
+*
+* SPACING
+* spacing   -----
+*/
+/*=============================================
+=                 Colors                      =
+============================================= */
+/* Brand colors  */
+/* Nautral colors */
+/* Utility colors */
+/*=====  End of Colors  ======*/
+/*=============================================
+=            TYPOGRAPHY                       =
+=============================================*/
+/**
+ *
+ * 1) The Playfair font- We will use this for headings mostly
+      https://fonts.google.com/specimen/Playfair+Display
+
+ * 2) The Raleway font - we will use this for body text mostly
+      https://fonts.google.com/specimen/Raleway
+ */
+/* font families */
+/* 1 */
+/* 2 */
+/* font-sizes */
+/* 12px */
+/* 14px */
+/* 16px */
+/* 18px */
+/* 24px */
+/* heading font sizes */
+/* font-weight */
+/*=====  End of Typograpghy  ======*/
+/*=============================================
+=            Breakpoints                      =
+============================================= */
+/*=====  End of Breakpoints  ======*/
+/*=============================================
+=            Spacing            =
+=============================================*/
+/*=====  End of Spacing  ======*/
+/*=============================================
+=            FOUNDATION                      =
+=============================================*/
+/**
+ *
+ * This file defines actual colors for styling
+ *
+ */
+/*=============================================
+=            Global text colors               =
+=============================================*/
+/*=====  End of Global text colors  ======*/
+/*=============================================
+=            Button                           =
+=============================================*/
+/*=============================================
+=                   Forms                     =
+=============================================*/
+/*=============================================
+=            Appbar colors                    =
+=============================================*/
+/*=============================================
+=            Floating buttons                 =
+=============================================*/
+/*=============================================
+=        Foundation - Typography              =
+=============================================*/
+/**
+ * This file defines the default font sizes to be used on headings and texts. The defaults come
+ * from the palette defined in _variables.scss.
+ */
+/*=============================================
+ =            Body Font family            =
+ =============================================*/
+/*=============================================
+=            Body font-size and weight        =
+=============================================*/
+/*=============================================
+=            Heading font-size              =
+=============================================*/
+/*=============================================
+=            Head font weights                =
+=============================================*/
+/*=============================================
+=            Mixins                           =
+=============================================*/
+/**
+ *
+ * Helpful reusable function-like things that will be used to implement
+ * styles for components.
+ *
+ */
+--dsf-panel-container {
+  display: flex;
+  position: absolute;
+}
