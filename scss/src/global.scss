@@ -12,12 +12,12 @@
  =                   Foundations               =
  =============================================*/
 
-@import "/scss/src/foundation/all";
+@import "./foundation/all.scss";
 
 /*=============================================
  =            Base                             =
  =============================================*/
-@import "/scss/src/base/reset";
-@import "/scss/src/base/root";
+@import "./base/reset";
+@import "./base/root";
 
 /*=====  End of Base  ======*/
